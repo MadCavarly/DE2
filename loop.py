@@ -21,6 +21,9 @@ stars(15,"<")
 
 #Solving quadratic equation
 def quadrat_solve(a,b,c):
+    if(4*a*c<0):
+        print("no real solution")
+        return 0,0
     return ((b**2)-math.sqrt(4*a*c))/2,((b**2)+math.sqrt(4*a*c))/2
 
 
