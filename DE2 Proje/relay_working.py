@@ -7,4 +7,4 @@ while True:
     pin_relay.on()
     time.sleep_ms(200)
     pin_relay.off()
-    time.sleep_ms(1000)
+    time.sleep_ms(2000)

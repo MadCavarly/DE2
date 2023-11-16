@@ -1,23 +1,3 @@
-"""
-I2C OLED display SH1106
-
-MicroPython script for initializing I2C and using an OLED
-display with the SH1106 controller. The script requires
-the SH1106 driver library, stored in ESP32 device.
-
-Hardware Configuration:
-- Connect I2C OLED display to your ESP32 as follows:
-  - SCL: GPIO 22
-  - SDA: GPIO 21
-  - VCC: 3.3V
-  - GND: GND
-
-Authors: Robert Hammelrath, https://github.com/robert-hh/SH1106
-         Martin Fitzpatrick, https://blog.martinfitzpatrick.com/oled-displays-i2c-micropython/
-         Tomas Fryza
-Date: 2023-10-27
-"""
-
 from machine import I2C
 from machine import Pin
 from sh1106 import SH1106_I2C
